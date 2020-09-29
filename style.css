@@ -1,1 +1,70 @@
-/* colori */
+/* awesome class */
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.dropitem::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f107";
+}
+
+/* margin e padding */
+.margin-5{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* style button */
+.btn-default {
+    background-color: white;
+    border-color: #006aff;
+    color: #006aff;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #006aff;
+    border-color: #006aff;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a.btn-default {
+    color: #006aff;
+}
+
+.navbar-default .navbar-nav>li>a.btn-primary {
+    color: white;
+}
+
+/* navbar - brand */
+.navbar-brand>img {
+    display: block;
+    height: 100%;
+}
+
+/* navbar */
+.navbar{
+    margin-bottom: 0;
+    border: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+.navbar{
+    border-radius: 0;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: #e7e7e7;
+}
