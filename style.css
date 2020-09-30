@@ -139,6 +139,9 @@
     }
 
 /* nuova sezione */
+
+
+
 .pagination>li:first-child>a, .pagination>li:first-child>span {
     border-radius: 100%;
 }
