@@ -24,6 +24,11 @@
     padding-bottom: 15px;
 }
 
+.padding-64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
 /* style text */
 .text-white{
     color: white;
@@ -100,6 +105,7 @@
     font-size: 25px;
     max-width: 370px;
     width: 100%;
+    margin-bottom: 0;
 }
 
 .panel-body {
@@ -118,14 +124,25 @@
 .jumbotron .panel .left{
     float: left;
     text-align: left;
-    width: calc(100% - 42px);
+    width: 80%;
 
 }
 
 .jumbotron .panel .right{
     float: left;
     text-align: right;
+    width: 20%;
 }
+
+small{
+    font-size: 12px;
+}
+
+/* costumer */
+.costumer h6{
+    color: rgb(91, 105, 135);
+}
+
 
 /* deploy */
 .btn-group-vertical {
