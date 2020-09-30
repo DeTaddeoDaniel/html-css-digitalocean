@@ -36,9 +36,9 @@
     padding-bottom: 30px;
 }
 
-@media (min-width:992px) {
+@media (min-width:768px) {
 
-    .padding-bottom-30-xs{
+    .padding-bottom-30-sm{
         padding-bottom:0px;
     }
 
@@ -59,16 +59,23 @@
 }
 
 .text-bold{
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .text-left{
     text-align: left;
 }
 
-p{
+.text-gray{
     color: #5b6987;
 }
+
+.font-size-20{
+    font-size: 20px;
+}
+
+
+
 /* colori bootstrap change*/
 
 .background-primary {
@@ -121,10 +128,24 @@ p{
     margin-bottom: 0;
 }
 
-@media (min-width: 992px){
-    .margin-top {
-        margin-top: 120px;
+
+@media (min-width:970px) {
+
+    .jumbotron .pos-relative{
+        position: relative;
     }
+
+    .text-jumbotron-content{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .test{
+        height: 100%;
+        width: 100%;
+    }
+
 }
 
 .jumbotron .panel {
@@ -165,13 +186,6 @@ small{
 }
 
 /* costumer */
-.costumer h6{
-    color: rgb(91, 105, 135);
-}
-
-.costumer a p{
-        color: #0069ff;
-}
 
 
 /* deploy */
@@ -209,10 +223,18 @@ small{
     }
 
 /* nuova sezione */
-.nav-absolute{
+.pos-relative{
+    position: relative;
+}
+
+.pager{
     position: relative;
     top: 50%;
-    transform: translate(-50%);
+    transform: translateY(-50%);
+}
+
+.height-full{
+    height: 100%;
 }
 
 .pagination>li:first-child>a, .pagination>li:first-child>span {
