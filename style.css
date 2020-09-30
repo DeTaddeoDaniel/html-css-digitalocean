@@ -14,9 +14,14 @@
 }
 
 /* margin e padding */
-.margin-5{
+.margin-lateral-5{
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.padding-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* style text */
@@ -87,25 +92,37 @@
 
 .jumbotron .panel {
     font-size: 25px;
-    max-width: 340px;
+    max-width: 370px;
     width: 100%;
 }
 
-.jumbotron .panel h5{
-    font-size: 18px;
+.panel-body {
+    padding: 30px;
 }
 
-.jumbotron p{
-    font-size: 12px;
-}
 
-.jumbotron form{
-    font-size: 16px;
-}
-
-.border-bottom{
+.jumbotron .panel .border-bottom{
     border: 0;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
+}
+
+.jumbotron .panel .btn-group-lg>.btn, .btn-lg {
+    font-size: 15px;
+}
+
+.jumbotron .panel .padding-0 {
+    padding: 0;
+}
+
+.jumbotron .panel .left{
+    float: left;
+    text-align: left;
+
+}
+
+.jumbotron .panel .right{
+    float: left;
+    text-align: right;
 }
 
 /* deploy */
@@ -139,8 +156,11 @@
     }
 
 /* nuova sezione */
-
-
+.nav-absolute{
+    position: relative;
+    top: 50%;
+    transform: translate(-50%);
+}
 
 .pagination>li:first-child>a, .pagination>li:first-child>span {
     border-radius: 100%;
