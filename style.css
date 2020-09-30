@@ -19,6 +19,35 @@
     margin-right: 5px;
 }
 
+/* style text */
+.text-white{
+    color: white;
+}
+
+.text-primary{
+
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-left{
+    text-align: left;
+}
+/* colori bootstrap change*/
+
+.background-primary {
+    background-color: #f3f5f9;
+}
+
+.background-secondary {
+    background-color: white;
+}
+
+.background-blue{
+    background-color: #006aff;
+}
 /* style button */
 .btn-default {
     background-color: white;
@@ -34,12 +63,8 @@
     font-weight: bold;
 }
 
-.navbar-default .navbar-nav>li>a.btn-default {
-    color: #006aff;
-}
-
-.navbar-default .navbar-nav>li>a.btn-primary {
-    color: white;
+.btn-fluid{
+    width: 100%;
 }
 
 /* navbar - brand */
@@ -49,22 +74,83 @@
 }
 
 /* navbar */
-.navbar{
-    margin-bottom: 0;
+
+
+/* jumbotron */
+.jumbotron{
+    height: 700px;
+    background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron .panel {
+    font-size: 25px;
+    max-width: 340px;
+    width: 100%;
+}
+
+.jumbotron .panel h5{
+    font-size: 18px;
+}
+
+.jumbotron p{
+    font-size: 12px;
+}
+
+.jumbotron form{
+    font-size: 16px;
+}
+
+.border-bottom{
     border: 0;
+    border-bottom: 1px solid gray;
 }
 
-.navbar-default .navbar-nav>li>a {
-    color: black;
-    font-weight: bold;
+/* deploy */
+.btn-group-vertical {
+    display: block;
 }
 
-@media (min-width: 768px){
-.navbar{
-    border-radius: 0;
+.border-left{
+    border: 0;
+    border-left: 5px solid red;
 }
 
-.navbar-default {
-    background-color: white;
-    border-color: #e7e7e7;
+.border-left.view{
+    border: 0;
+    border-left: 5px solid blue;
+}
+
+.border-bottom{
+    border: 0;
+    border-bottom: 5px solid red;
+}
+
+.border-bottom.view{
+    border: 0;
+    border-bottom: 5px solid blue;
+}
+
+@media (min-width: 992px){
+    .text-left{
+        text-align: left;}
+    }
+
+/* nuova sezione */
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    border-radius: 100%;
+}
+
+.pagination .btn {
+    border-radius: 100%;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-radius: 100%;
+}
+
+.pagination>li>a, .pagination>li>span {
+    padding: 8px;
 }
