@@ -90,6 +90,12 @@
     margin-bottom: 0;
 }
 
+@media (min-width: 992px){
+    .margin-top {
+        margin-top: 120px;
+    }
+}
+
 .jumbotron .panel {
     font-size: 25px;
     max-width: 370px;
@@ -100,7 +106,6 @@
     padding: 30px;
 }
 
-
 .jumbotron .panel .border-bottom{
     border: 0;
     border-bottom: 1px solid lightgray;
@@ -110,13 +115,10 @@
     font-size: 15px;
 }
 
-.jumbotron .panel .padding-0 {
-    padding: 0;
-}
-
 .jumbotron .panel .left{
     float: left;
     text-align: left;
+    width: calc(100% - 42px);
 
 }
 
