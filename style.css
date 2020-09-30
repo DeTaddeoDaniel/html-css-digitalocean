@@ -78,11 +78,11 @@
 
 /* jumbotron */
 .jumbotron{
-    height: 700px;
     background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 0;
 }
 
 .jumbotron .panel {
@@ -153,4 +153,8 @@
 
 .pagination>li>a, .pagination>li>span {
     padding: 8px;
+}
+
+.pagination>li>a.select {
+    background-color: #006aff;
 }
