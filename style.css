@@ -14,11 +14,6 @@
 }
 
 /* margin e padding */
-
-.padding-bottom-50{
-    padding-bottom: 50px;
-}
-
 .margin-lateral-5{
     margin-left: 5px;
     margin-right: 5px;
@@ -31,6 +26,10 @@
 
 .padding-top-64{
     padding-top: 64px;
+}
+
+.padding-bottom-50{
+    padding-bottom: 50px;
 }
 
 .padding-bottom-30{
@@ -120,7 +119,7 @@
     height: 100%;
 }
 
-/* navbar */
+/* nav */
 .header-top-content{
     vertical-align: middle;
 }
@@ -156,6 +155,17 @@
     padding-right: 10px
 }
 
+/* navbar */
+@media (min-width: 768px){
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+}
 /* jumbotron */
 .jumbotron{
     background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
