@@ -18,10 +18,6 @@
     margin-right: 15px;
 }
 
-.margin-top-20{
-    margin-top: 20px;
-}
-
 .margin-lateral-5{
     margin-left: 5px;
     margin-right: 5px;
@@ -527,9 +523,12 @@ footer a:hover{
     color: white;
 }
 
-footer .navbar-default {
-    background-color: transparent;
-    border: transparent;
+footer .footer-bottom{
+    padding-top: 30px;
+}
+
+footer .row.padding-bottom-10{
+    padding-bottom: 10px
 }
 
 footer .navbar-brand {
