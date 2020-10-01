@@ -18,6 +18,10 @@
     margin-right: 15px;
 }
 
+.margin-top-20{
+    margin-top: 20px;
+}
+
 .margin-lateral-5{
     margin-left: 5px;
     margin-right: 5px;
@@ -488,7 +492,7 @@ footer{
     padding: 20px;
 }
 
-footer .footer-top{
+footer .margin-bottom-separator{
     border-bottom: 1px solid lightgray;
 }
 
@@ -521,4 +525,65 @@ footer a{
 
 footer a:hover{
     color: white;
+}
+
+footer .navbar-default {
+    background-color: transparent;
+    border: transparent;
+}
+
+footer .navbar-brand {
+    padding: 0;
+}
+
+footer .social>li {
+    display: inline-block;
+    margin-right: 10px;
+    margin: right:10px
+}
+
+@media (min-width: 768px){
+    .navbar-text {
+        float: none;
+    }
+}
+
+footer .copyright{
+    color: hsla(0,0%,100%,0.5);
+    font-size: 15px;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer .social{
+    padding-top: 13px;
+}
+
+@media (min-width:620px) {
+
+    footer .contain-bland{
+
+    }
+
+    footer .copyright{
+        width: calc(100% - 310px);
+        display: inline-block;
+        text-align: left;
+    }
+
+    footer .social{
+        width: 305px;
+        text-align: right;
+        display: inline-block;
+    }
+}
+
+.filtro{
+    filter: invert(40%);
+}
+
+.filtro:hover{
+    filter: invert(100%);
 }
