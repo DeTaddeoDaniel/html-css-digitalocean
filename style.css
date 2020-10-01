@@ -111,6 +111,9 @@
     width: 100%;
 }
 
+/* link */
+
+
 /* navbar - brand */
 .navbar-brand>img {
     display: block;
@@ -327,6 +330,11 @@ small{
     color: #006aff;
 }
 
+a:focus, a:hover {
+    color: #1633ff;
+    text-decoration: none;
+}
+
 @media (min-width:768px) {
     .feature p{
         text-align: left;
@@ -350,8 +358,7 @@ small{
 
 .server {
     border-bottom: 1px solid #5b6987;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 5px;
     max-width:310px;
     width: 100%;
     margin:0 auto;
@@ -385,4 +392,10 @@ small{
     float: left;
     width: 30%;
     text-align: right;
+    color: rgb(0, 215, 210);
+}
+
+a:focus, a:hover {
+    color: #1633ff;
+    text-decoration: none;
 }
