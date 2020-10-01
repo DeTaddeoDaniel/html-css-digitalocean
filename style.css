@@ -214,6 +214,7 @@
     }
 
 }
+
 /* jumbotron */
 .jumbotron{
     background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
@@ -221,7 +222,8 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 0;
-    height: 750px;
+    padding-top:calc(70px + 40px);
+    padding-bottom: 40px;
 }
 
 .jumbotron .h1, .h2, .h3, h1, h2, h3 {
@@ -232,41 +234,41 @@
     margin-bottom: 0;
 }
 
-
 .jumbotron p.res{
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-@media (min-width:970px) {
+@media (min-width:870px) {
 
-    .jumbotron .pos-relative{
-        position: relative;
+    .jumbotron{
+        padding-top:calc(70px + 40px + 40px);
     }
 
-    .res-text {
-        text-align: left;
+}
+
+@media (min-width:992px){
+
+    .jumbotron h1{
+        font-size: 38px;
+        padding-top: 50px;
     }
 
-    .test{
-        height: 630px;
+}
+
+@media (min-width:1200px) {
+
+    .jumbotron h1{
+        padding-top: 30px;
+        font-size: 63px;
     }
 
-    .jumbotron {
-    padding-top: 80px;
-    padding-bottom: 40px;
-    }
-
-    .pos-absolute {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }
 }
 
 .jumbotron .panel {
     font-size: 25px;
     max-width: 370px;
+    width: 100%;
     margin-bottom: 0;
 }
 
