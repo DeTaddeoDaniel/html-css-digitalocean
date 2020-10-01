@@ -484,7 +484,30 @@ a:focus, a:hover {
 /* section */
 footer{
     color: white;
-    background-color: hsl(220,95%,8%)
+    background-color: hsl(220,95%,8%);
+    padding: 20px;
+}
+
+footer .footer-top{
+    border-bottom: 1px solid lightgray;
+}
+
+footer .column{
+    padding: 5px;
+}
+
+@media (min-width:340px) {
+    footer .column{
+        float: left;
+        width: 50%;
+    }
+}
+
+@media (min-width:750px) {
+    footer .column{
+        float: left;
+        width: 20%;
+    }
 }
 
 footer ul{
