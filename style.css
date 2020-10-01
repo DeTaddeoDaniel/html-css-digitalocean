@@ -341,7 +341,7 @@ small{
 }
 
 /* data center */
-.data-center{
+.data-center-section{
     background: #031b4e url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -357,24 +357,31 @@ small{
     margin:0 auto;
 }
 
+@media (min-width:992px){
+    .server {
+        max-width: 80%;
+        width: 100%;
+    }
+}
+
 .server.end-list {
     border: 0;
 }
 
-.data-center .sigla{
+.server .sigla{
     text-transform: uppercase;
     font-weight: bold;
     float: left;
     width: 20%;
 }
 
-.item-data-center .state{
+.server .state{
     color:  #5b6987;
     float: left;
     width: 50%;
 }
 
-.item-data-center a{
+.server a{
     float: left;
     width: 30%;
     text-align: right;
