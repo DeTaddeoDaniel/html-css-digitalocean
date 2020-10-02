@@ -339,7 +339,7 @@ small{
         text-align: left;}
     }
 
-/* nuova sezione */
+/* ---------------- CAROSSELO 2---------------------------- */
 .pagination>li:first-child>a, .pagination>li:first-child>span {
     border-radius: 100%;
 }
@@ -354,6 +354,7 @@ small{
 
 .pagination>li>a, .pagination>li>span {
     padding: 8px;
+    border-color: #006aff;
 }
 
 .pagination>li>a.select {
@@ -368,7 +369,8 @@ small{
     max-height: 600px;
 }
 
-/* build for buness */
+/* ------------------ BUILD FOR BUSINESS ----------------------*/
+/* build for business */
 .build h2{
     /* margin-bottom: 64px; */
 }
@@ -376,6 +378,7 @@ small{
 .feature{
     text-align: center;
     padding: 30px;
+    text-align: center;
 }
 
 .feature h5{
@@ -384,6 +387,8 @@ small{
 
 .feature p{
     color: #5b6987;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .feature a{
@@ -395,10 +400,12 @@ a:focus, a:hover {
     text-decoration: none;
 }
 
+/* media per responsive */
 @media (min-width:768px) {
     .feature p{
         text-align: left;
     }
+
 }
 
 @media (min-width:992px) {
@@ -408,6 +415,7 @@ a:focus, a:hover {
     }
 }
 
+/* -------------------- SERVER ------------------------ */
 /* data center */
 .data-center-section{
     background: #031b4e url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
@@ -424,9 +432,16 @@ a:focus, a:hover {
     margin:0 auto;
 }
 
+@media (min-width:870px){
+    .server {
+        max-width: 90%;
+        width: 100%;
+    }
+}
+
 @media (min-width:992px){
     .server {
-        max-width: 80%;
+        max-width: 85%;
         width: 100%;
     }
 }
@@ -460,28 +475,36 @@ a:focus, a:hover {
     text-decoration: none;
 }
 
+/* ------------------ GET STARTED ------------------------- */
 /* section - get started */
 .get-started{
     background-image: url(https://prismic-io.s3.amazonaws.com/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    text-align: center;
 }
 
-.div-float-get-started{
+/* media elemento per get-stared */
+@media (min-width:600px) {
+
+    .get-started{
+        text-align: left;
+    }
+
+    .div-float-get-started .left{
+        float: left;
+        width: calc(100% - 170px)
+    }
+
+    .div-float-get-started .right{
+        float: left;
+        width: 170px
+    }
+
 }
 
-.div-float-get-started .left{
-    float: left;
-    width: calc(100% - 170px)
-}
-
-.div-float-get-started .right{
-    float: left;
-    width: 170px
-}
-
-/* section */
+/* ------------------ FOOTER ------------------------------ */
 footer{
     color: white;
     background-color: hsl(220,95%,8%);
@@ -496,7 +519,8 @@ footer .column{
     padding: 5px;
 }
 
-@media (min-width:340px) {
+/* media per colonne footer-top responsive */
+@media (min-width:440px) {
     footer .column{
         float: left;
         width: 50%;
@@ -528,7 +552,7 @@ footer .footer-bottom{
 }
 
 footer .row.padding-bottom-10{
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 
 footer .navbar-brand {
@@ -541,16 +565,19 @@ footer .social>li {
     margin: right:10px
 }
 
+
+footer .copyright{
+    color: hsla(0,0%,100%,0.5);
+    font-size: 15px;
+}
+
+/* media per ing-brand for left */
 @media (min-width: 768px){
     .navbar-text {
         float: none;
     }
 }
 
-footer .copyright{
-    color: hsla(0,0%,100%,0.5);
-    font-size: 15px;
-}
 
 footer p{
     margin: 0;
@@ -560,6 +587,15 @@ footer .social{
     padding-top: 13px;
 }
 
+.filtro{
+    filter: invert(40%);
+}
+
+.filtro:hover{
+    filter: invert(100%);
+}
+
+/* media per footer-bottom */
 @media (min-width:620px) {
 
     footer .contain-bland{
@@ -579,10 +615,5 @@ footer .social{
     }
 }
 
-.filtro{
-    filter: invert(40%);
-}
 
-.filtro:hover{
-    filter: invert(100%);
-}
+/* -------------------- FINE HTML --------------------------------- */
