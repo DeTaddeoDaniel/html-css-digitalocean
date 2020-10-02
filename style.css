@@ -337,14 +337,15 @@ small{
 .deploy .card p{
     margin: 0 auto;
     max-width: 500px;
+    text-align: center;
 }
 
-
+/* media per responsive p in deploy */
 @media (min-width: 992px){
-    .text-left{
-        text-align: left;}
+    .deploy .card p{
+        text-align: left;
     }
-
+}
 /* ---------------- CAROSSELO 2- da rivedere--------------------------- */
 .pagination>li:first-child>a, .pagination>li:first-child>span {
     border-radius: 100%;
