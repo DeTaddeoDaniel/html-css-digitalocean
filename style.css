@@ -129,6 +129,10 @@
 }
 
 /* nav */
+.header .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #006aff;
+}
+
 .header-top-content{
     vertical-align: middle;
 }
@@ -267,16 +271,6 @@
 
 }
 
-/* responsive pulsanti panel  <i class="fab fa-google"></i> Sign up with google*/
- .btn-content-signup-google{
-    content: "Sign up";
-}
-
-.btn-content-signup-google::after{
-   content: "<i class="fab fa-google"></i>";
-}
-
-
 .jumbotron .panel {
     font-size: 25px;
     max-width: 370px;
@@ -312,6 +306,26 @@
 
 small{
     font-size: 12px;
+}
+
+/* media per pulsante login with email with form */
+@media (min-width: 300px) {
+    .text-btn-form-sign-up::after{
+        content: " with email";
+    }
+}
+
+/* media per pulsante google responsive */
+@media (min-width:285px) {
+    .btn-content-signup-google::after{
+        content: " Sign up";
+    }
+}
+
+@media (min-width:400px) {
+    .btn-content-signup-google::after{
+        content: " Sign up with google";
+    }
 }
 
 /* ---------------------- CUSTUMER ---------------------------- */
