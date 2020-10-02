@@ -49,26 +49,14 @@
     padding-bottom: 30px;
 }
 
-@media (min-width:768px) {
-
-    .padding-bottom-30-sm{
-        padding-bottom:0px;
-    }
-
-}
-
 .padding-64{
     padding-top: 64px;
     padding-bottom: 64px;
 }
 
-/* style text */
+/*  .................. STYLE TEXT ................. */
 .text-white{
     color: white;
-}
-
-.text-primary{
-
 }
 
 .text-bold{
@@ -91,10 +79,7 @@
     font-size: 20px;
 }
 
-
-
-/* colori bootstrap change*/
-
+/*  .................. CHANHE COLOR BOOTSTRAP ................. */
 .background-primary {
     background-color: #f3f5f9;
 }
@@ -108,7 +93,7 @@
 }
 
 
-/* style button */
+/*  .................. STYLE BUTTON ................. */
 .btn-default {
     background-color: white;
     border-color: #006aff;
@@ -133,16 +118,7 @@
     width: 100%;
 }
 
-/* link */
-
-
-/* navbar - brand */
-.navbar-brand>img {
-    display: block;
-    height: 100%;
-}
-
-/* ----------------- NAV NAVIGAZIONE ------------------------------ */
+/*------------ NAV NAVIGAZIONE ------------------------------ */
 .header .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #006aff;
 }
@@ -190,6 +166,12 @@
 /* --------------------------- NAVBAR ------------------------------ */
 .margin-navbar{
     margin-top: 0;
+}
+
+/* navbar - brand */
+.navbar-brand>img {
+    display: block;
+    height: 100%;
 }
 
 /* media per navbar menu responsive */
