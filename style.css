@@ -41,6 +41,10 @@
     padding-bottom: 50px;
 }
 
+.padding-bottom-64{
+    padding-bottom: 64px;
+}
+
 .padding-bottom-30{
     padding-bottom: 30px;
 }
@@ -77,6 +81,10 @@
 
 .text-gray{
     color: #5b6987;
+}
+
+.text-lightgray{
+    color: rgb(148 163 195);
 }
 
 .font-size-20{
@@ -422,10 +430,9 @@ small{
         right: 100%;
         transform: translate(0%,-50%);
         font-size: 50px;
-        background-color: #ded5d5;
         border-radius: 100% 0% 0% 100%;
         color: rgb(35,50,0);
-        padding-right: 5px;
+        padding-right: 20px;
     }
 
     .carosello::before {
@@ -437,10 +444,9 @@ small{
         left: 100%;
         transform: translate(0%,-50%);
         font-size: 50px;
-        background-color: #ded5d5;
         border-radius: 0 100% 100% 0;
         color: rgb(35,50,0);
-        padding-left: 5px;
+        padding-left: 20px;
     }
 
 }
@@ -551,10 +557,6 @@ a:focus, a:hover {
 }
 
 /* ------------------- CITAZIONI -------------------------- */
-.citazione-header{
-
-}
-
 .citazione-header p{
     font-size: 20px;
     max-width: 740px;
@@ -562,8 +564,43 @@ a:focus, a:hover {
 }
 
 .card-citazione{
+    position: relative;
     padding: 64px;
     background-color: white;
+    color: rgb(91, 105, 135);
+}
+
+/* media per freccette laterali */
+@media (min-width:768px) {
+
+    .card-citazione::after {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f104";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        transform: translate(0%,-50%);
+        font-size: 50px;
+        border-radius: 100% 0% 0% 100%;
+        color: rgb(35,50,0);
+        padding-right: 20px;
+    }
+
+    .card-citazione::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f105";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        transform: translate(0%,-50%);
+        font-size: 50px;
+        border-radius: 0 100% 100% 0;
+        color: rgb(35,50,0);
+        padding-left: 20px;
+    }
+
 }
 
 .card-citazione img{
@@ -571,9 +608,16 @@ a:focus, a:hover {
 }
 
 .card-citazione p{
-    font-size: 20px;
+    font-size: 21px;
+}
+
+.card-citazione p:first-of-type{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.card-citazione i:nth-child(2){
+    font-size: 16px;
 }
 
 /* ------------------ GET STARTED ------------------------- */
