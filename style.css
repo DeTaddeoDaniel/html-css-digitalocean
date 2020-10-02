@@ -142,7 +142,7 @@
     height: 100%;
 }
 
-/* nav */
+/* ----------------- NAV NAVIGAZIONE ------------------------------ */
 .header .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #006aff;
 }
@@ -180,24 +180,19 @@
     padding-right: 10px
 }
 
+/* media per nascondere il nav sito */
 @media (min-width:870px) {
     .hidden{
         display: block !important;
     }
 }
 
-/* navbar */
+/* --------------------------- NAVBAR ------------------------------ */
 .margin-navbar{
     margin-top: 0;
 }
 
-@media (min-width:870px) {
-    .margin-navbar{
-        margin-top: 40px;
-        border-top: 1px solid lightgray;
-    }
-}
-
+/* media per navbar menu responsive */
 @media (min-width: 768px){
     .navbar-toggle {
         display: block;
@@ -211,6 +206,13 @@
         display: none!important;
     }
 
+}
+
+@media (min-width:870px) {
+    .margin-navbar{
+        margin-top: 40px;
+        border-top: 1px solid lightgray;
+    }
 }
 
 @media (min-width: 950px){
@@ -383,7 +385,7 @@ small{
     }
 }
 
-/* ---------------- CAROSSELO 2- da rivedere--------------------------- */
+/* ---------------- CAROSSELO --------------------------- */
 .pagination>li:first-child>a, .pagination>li:first-child>span {
     border-radius: 100%;
 }
@@ -397,7 +399,7 @@ small{
 }
 
 .pagination>li>a, .pagination>li>span {
-    padding: 8px;
+    padding: 4px;
     border-color: #006aff;
 }
 
