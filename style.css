@@ -518,6 +518,12 @@ a:focus, a:hover {
     background-position: center;
 }
 
+.btn-default:hover.hover-dark {
+    background-color: rgba(225,225,225,0.9);
+    color: #006aff;
+    border-color: rgba(225,225,225,0.9);
+}
+
 /* media elemento per get-stared */
 @media (min-width:600px) {
 
