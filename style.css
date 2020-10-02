@@ -358,6 +358,7 @@ small{
         text-align: left;
     }
 }
+
 /* ---------------- CAROSSELO 2- da rivedere--------------------------- */
 .pagination>li:first-child>a, .pagination>li:first-child>span {
     border-radius: 100%;
@@ -390,12 +391,12 @@ small{
 
 /* ------------------ BUILD FOR BUSINESS ----------------------*/
 .build h2{
-    /* margin-bottom: 64px; */
+    padding-bottom: 30px;
+    margin-bottom: 0;
 }
 
 .feature{
     text-align: center;
-    padding: 30px;
     text-align: center;
 }
 
