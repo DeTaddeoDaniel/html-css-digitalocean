@@ -341,7 +341,9 @@ small{
 }
 
 /* ---------------------- CUSTUMER ---------------------------- */
-
+.costumer p{
+    padding-top: 20px;
+}
 
 /* ------------------------ DEPLOY --------------------------- */
 .btn-group-vertical {
@@ -483,19 +485,19 @@ a:focus, a:hover {
     text-decoration: none;
 }
 
-/* media per responsive */
-@media (min-width:768px) {
-    .feature p,
-    .feature a{
-        text-align: left;
-    }
-
+.feature .div-img{
+    padding-top: 30px;
 }
 
+/* media per responsive */
 @media (min-width:992px) {
-    .feature h5{
+    .feature h5,
+    .feature a,
+    .feature p,
+    .feature .div-img{
         text-align: left;
     }
+
 }
 
 /* -------------------- SERVER ------------------------ */
