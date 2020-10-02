@@ -405,6 +405,46 @@ small{
     max-height: 600px;
 }
 
+.carosello{
+    position: relative;
+    display: inline-block;
+}
+
+/* media per freccette laterali */
+@media (min-width:768px) {
+
+    .carosello::after {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f104";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        transform: translate(0%,-50%);
+        font-size: 50px;
+        background-color: #ded5d5;
+        border-radius: 100% 0% 0% 100%;
+        color: rgb(35,50,0);
+        padding-right: 5px;
+    }
+
+    .carosello::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f105";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        transform: translate(0%,-50%);
+        font-size: 50px;
+        background-color: #ded5d5;
+        border-radius: 0 100% 100% 0;
+        color: rgb(35,50,0);
+        padding-left: 5px;
+    }
+
+}
+
 /* ------------------ BUILD FOR BUSINESS ----------------------*/
 .build h2{
     padding-bottom: 30px;
@@ -594,7 +634,6 @@ footer .social>li {
     margin: right:10px
 }
 
-
 footer .copyright{
     color: hsla(0,0%,100%,0.5);
     font-size: 15px;
@@ -643,6 +682,5 @@ footer .social{
         display: inline-block;
     }
 }
-
 
 /* -------------------- FINE HTML --------------------------------- */
