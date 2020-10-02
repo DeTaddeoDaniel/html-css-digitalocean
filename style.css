@@ -267,7 +267,15 @@
 
 }
 
-/* responsive pulsanti panel */
+/* responsive pulsanti panel  <i class="fab fa-google"></i> Sign up with google*/
+ .btn-content-signup-google{
+    content: "Sign up";
+}
+
+.btn-content-signup-google::after{
+   content: "<i class="fab fa-google"></i>";
+}
+
 
 .jumbotron .panel {
     font-size: 25px;
@@ -491,7 +499,6 @@ a:focus, a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
 }
 
 /* media elemento per get-stared */
@@ -499,16 +506,6 @@ a:focus, a:hover {
 
     .get-started{
         text-align: left;
-    }
-
-    .div-float-get-started .left{
-        float: left;
-        width: calc(100% - 170px)
-    }
-
-    .div-float-get-started .right{
-        float: left;
-        width: 170px
     }
 
 }
