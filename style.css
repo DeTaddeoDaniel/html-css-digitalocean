@@ -215,7 +215,7 @@
 
 }
 
-/* jumbotron */
+/* ---------------------- JUMBOTRON --------------------------------- */
 .jumbotron{
     background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-repeat: no-repeat;
@@ -239,6 +239,7 @@
     padding-bottom: 20px;
 }
 
+/* padding top con le navbar fixed */
 @media (min-width:870px) {
 
     .jumbotron{
@@ -247,6 +248,7 @@
 
 }
 
+/* centratura left jumbotron */
 @media (min-width:992px){
 
     .jumbotron h1{
@@ -264,6 +266,8 @@
     }
 
 }
+
+/* responsive pulsanti panel */
 
 .jumbotron .panel {
     font-size: 25px;
@@ -302,8 +306,8 @@ small{
     font-size: 12px;
 }
 
-/* costumer */
-/* no style */
+/* ---------------------- CUSTUMER ---------------------------- */
+
 
 /* ------------------------ DEPLOY --------------------------- */
 .btn-group-vertical {
