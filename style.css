@@ -79,7 +79,7 @@
     font-size: 20px;
 }
 
-/*  .................. CHANHE COLOR BOOTSTRAP ................. */
+/*  .................. CHANGE COLOR BOOTSTRAP ................. */
 .background-primary {
     background-color: #f3f5f9;
 }
@@ -116,6 +116,12 @@
 
 .btn-fluid{
     width: 100%;
+}
+
+/* ------------------ SECTION ------------------------------- */
+section{
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 /*------------ NAV NAVIGAZIONE ------------------------------ */
@@ -256,6 +262,7 @@
 
 }
 
+/* font size sistemazione */
 @media (min-width:1200px) {
 
     .jumbotron h1{
@@ -269,7 +276,15 @@
     font-size: 25px;
     max-width: 370px;
     width: 100%;
-    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+/* panel align right */
+@media (min-width: 992px) {
+    .jumbotron .panel {
+        margin: 0;
+        margin-left: auto;
+    }
 }
 
 .panel-body {
@@ -289,7 +304,6 @@
     float: left;
     text-align: left;
     width: 80%;
-
 }
 
 .jumbotron .panel .right{
@@ -369,7 +383,7 @@ small{
     }
 }
 
-/* ---------------- CAROSSELO --------------------------- */
+/* ---------------- CAROSSELO 1 --------------------------- */
 .pagination>li:first-child>a, .pagination>li:first-child>span {
     border-radius: 100%;
 }
@@ -410,29 +424,29 @@ small{
     .carosello::after {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
-        content: "\f104";
-        position: absolute;
-        top: 50%;
-        right: 100%;
-        transform: translate(0%,-50%);
-        font-size: 50px;
-        border-radius: 100% 0% 0% 100%;
-        color: rgb(35,50,0);
-        padding-right: 20px;
-    }
-
-    .carosello::before {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
         content: "\f105";
         position: absolute;
         top: 50%;
         left: 100%;
         transform: translate(0%,-50%);
         font-size: 50px;
-        border-radius: 0 100% 100% 0;
+        border-radius: 100% 0% 0% 100%;
         color: rgb(35,50,0);
         padding-left: 20px;
+    }
+
+    .carosello::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f104";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        transform: translate(0%,-50%);
+        font-size: 50px;
+        border-radius: 0 100% 100% 0;
+        color: rgb(35,50,0);
+        padding-right: 20px;
     }
 
 }
@@ -562,29 +576,29 @@ a:focus, a:hover {
     .card-citazione::after {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
-        content: "\f104";
-        position: absolute;
-        top: 50%;
-        right: 100%;
-        transform: translate(0%,-50%);
-        font-size: 50px;
-        border-radius: 100% 0% 0% 100%;
-        color: rgb(35,50,0);
-        padding-right: 20px;
-    }
-
-    .card-citazione::before {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
         content: "\f105";
         position: absolute;
         top: 50%;
         left: 100%;
         transform: translate(0%,-50%);
         font-size: 50px;
-        border-radius: 0 100% 100% 0;
+        border-radius: 100% 0% 0% 100%;
         color: rgb(35,50,0);
         padding-left: 20px;
+    }
+
+    .card-citazione::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f104";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        transform: translate(0%,-50%);
+        font-size: 50px;
+        border-radius: 0 100% 100% 0;
+        color: rgb(35,50,0);
+        padding-right: 20px;
     }
 
 }
