@@ -647,7 +647,6 @@ a:focus, a:hover {
 footer{
     color: white;
     background-color: hsl(220,95%,8%);
-    padding: 20px;
 }
 
 footer .margin-bottom-separator{
@@ -701,7 +700,8 @@ footer .navbar-brand {
 footer .social>li {
     display: inline-block;
     margin-right: 10px;
-    margin: right:10px
+    margin: right:10px;
+    padding-top:10px;
 }
 
 footer .copyright{
@@ -734,7 +734,7 @@ footer .social{
 }
 
 /* media per footer-bottom */
-@media (min-width:620px) {
+@media (min-width:720px) {
 
     footer .contain-bland{
 
